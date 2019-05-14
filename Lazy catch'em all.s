@@ -21,7 +21,7 @@ ld (hli), a
 ret
 
 # Program as hex string, and item bag:
-# 31 31		Thunderstone	x33
+# 31 31		Thunderstone		x33
 # D3 2A		TM11			x42
 # 01 64		Master Ball		x100
 # 01 C5		Master Ball		x197
@@ -32,7 +32,7 @@ ret
 # 52 04		Fresh Water		x32
 # 3C 20		Fresh Water		x32
 # F5 78		TM42			x120
-# 21 28		Thunderstone	x04
+# 21 28		Thunderstone		x04
 # D3 22		TM11			x34
 # 3E 64		Lemonade		x100
 # 22 C9		Water Stone		x201
