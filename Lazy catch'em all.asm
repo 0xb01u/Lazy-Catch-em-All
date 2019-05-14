@@ -1,7 +1,7 @@
 ld hl, $D321		# Loads the address of the 2nd item's quantity.
 ld a, (hli)		# Loads the quantity of the 2nd item, used as loop control (should be -19).
 ld bc, $0164		# Loads in b the ID of the Pokémon to give to the player;
-				# Loads in c the level of that Pokémon (100).
+			# Loads in c the level of that Pokémon (100).
 push bc
 push af			# Stores a, b and c on the stack.
 ld b, b			# Useless instruction to make item placement easier.
