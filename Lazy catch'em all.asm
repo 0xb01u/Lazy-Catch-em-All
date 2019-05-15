@@ -10,8 +10,8 @@ ld b, b			; Useless instruction to make item placement easier.
 pop af
 pop bc			; Restores a, b and c.
 ld d, d			; Useless instruction to make item placement easier.
-inc a			; Increases loop counter.
 inc b			; Loads next Pokémon's ID.
+inc a			; Increases loop counter.
 jr nz, F5		; Jumps to 5 if a != 0
 ld a, b
 ld hl $D328		; Loads the address of the 5th item
