@@ -28,8 +28,8 @@ ret
 ; F5 40		TM45			x64
 ; CD 48		TM05			x72
 ; 3E 40		Lemonade		x64
-; F1 C1		Elixer			x04
-; 52 04		Fresh Water		x32
+; F1 C1		TM41			x193
+; 52 04		Elixer			x40
 ; 3C 20		Fresh Water		x32
 ; F5 78		TM42			x120
 ; 21 28		Thunderstone		x04
