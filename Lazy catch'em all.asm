@@ -21,7 +21,7 @@ ld (hli), a
 ret
 
 ; Program as hex string, and item bag:
-; 31 31		Thunderstone		x33
+; 21 21		Thunderstone		x33
 ; D3 2A		TM11			x42
 ; 01 64		Master Ball		x100
 ; 01 C5		Master Ball		x197
